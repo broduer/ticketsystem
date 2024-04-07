@@ -17,11 +17,11 @@ TicketSystem.Config.Usergroups = {
         name = "Owner",
         color = Color(255,62,213),
     },
-    ["communitymanager"] = {
+    ["Community Manager"] = {
         name = "Manager",
         color = Color(255,62,213),
     },
-    ["manager"] = {
+    ["Global Manager"] = {
         name = "Manager",
         color = Color(255,62,213),
     },
@@ -62,7 +62,7 @@ TicketSystem.Config.Usergroups = {
         color = Color(0,138,30),
     },
     ["user"] = {
-        name = "Gast",
+        name = "Guest",
         color = Color(151,151,151),
     },
 }
@@ -149,7 +149,7 @@ TicketSystem.Config.Language = {
     ["OVERVIEW_TICKET_TIMESTAMP"] = "%s minutes ago",
 
     ["FRAME_OVERVIEW"] = "Overview",
-    ["FRAME_STAFF"] = "Online staffmembers",
+    ["FRAME_STAFF"] = "Online Staff Members",
 
     ["MSG_NEWTICKET"] = "A new ticket has been created.",
     ["MSG_STATUSCHANGED"] = "The status of your ticket has been changed: ",

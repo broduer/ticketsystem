@@ -48,7 +48,7 @@ function TicketSystem:PlayerHasPermission(ply, permission, preventMessage)
         if SERVER then
             ply:TicketMessage(Color(255,0,0), TicketSystem:GetText("MSG_NOPERMS", permission))
         else
-            chat.AddText(Color(255,77,77), "TicketSystem", Color(90,90,90)," » ", Color(255,0,0), TicketSystem:GetText("MSG_NOPERMS", permission))
+            chat.AddText(Color(255,77,77), "Ticket System", Color(90,90,90)," » ", Color(255,0,0), TicketSystem:GetText("MSG_NOPERMS", permission))
         end
         return false
     end
